@@ -15,7 +15,7 @@ The different standalone baselines are explored to compare their individual perf
 
 * **SECTION 1: Data Preparation & EDA:** (`download.py`, `dataset.py`, `preprocessing.ipynb`, `eda.ipynb`)
 * **SECTION 2: Data Augmentation:** (`augment.py`)
-* **SECTION 3: Model Architectures:** (`unet_model.py`, `my_segformer.py`, `deepLabV3Plus.py`, `z-segformer.py`)
+* **SECTION 3: Model Architectures:** (`unet_model.py`, `my_segformer.py`, `deepLabV3Plus.py`)
 * **SECTION 4: Training Loops & Logs:** (`train_unet_base.py`, `train_segformer.py`, `train_deepLabV3Plus.py`, and `.txt`/`.json` logs)
 * **SECTION 5: Testing & Evaluation:** (`test_siamese_unet.ipynb`, `test_segformer.ipynb`, `test_deeplabv3.ipynb`)
 * **SECTION 6: Ensemble Implementation:** (`damage_ensemble.py`, `test_ensemble.ipynb`)
