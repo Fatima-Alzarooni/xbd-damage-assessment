@@ -23,10 +23,10 @@ The different standalone baselines are explored to compare their individual perf
 
 ## The different models we used are:
 
-### Siamese U-Net:
-### SegFormer:
-### Siamese DeepLabV3+:
-### Soft Voting Ensemble:
+### Siamese U-Net
+### SegFormer
+### Siamese DeepLabV3+
+### Soft Voting Ensemble
 
 ## How to Run the Code (Step-by-Step)
 
