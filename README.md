@@ -21,13 +21,6 @@ The different standalone baselines are explored to compare their individual perf
 * **SECTION 6: Ensemble Implementation:** (`damage_ensemble.py`, `test_ensemble.ipynb`)
 * **SECTION 7: Visualizations:** Located in `checkpoints/` directories (e.g., `miou.png`, `f1.png`, `confusion_matrix_test.png`, `sample_predictions.png`)
 
-## The different models we used are:
-
-### Siamese U-Net
-### SegFormer
-### Siamese DeepLabV3+
-### Soft Voting Ensemble
-
 ## How to Run the Code (Step-by-Step)
 
 ### Step 1: Environment Setup
