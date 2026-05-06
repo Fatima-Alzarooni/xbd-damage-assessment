@@ -1,0 +1,380 @@
+nohup: ignoring input
+Using device: cuda
+Using device: cuda
+
+Loading data...
+Loaded train set: 3298 samples
+Loaded val set: 856 samples
+Loaded test set: 851 samples
+
+Initializing model...
+Total parameters: 26,678,356
+
+Training for 30 epochs...
+
+Epoch [1/30]
+  Train Loss: 0.1038 | Val Loss: 0.0422
+  Train mIoU: 0.2389 | Val mIoU: 0.2450
+  Train F1:   0.2436  | Val F1:   0.2475
+  Pixel Acc:  0.9801
+  Per class IoU:
+    no-damage: 0.9801
+    minor-damage: 0.0000
+    major-damage: 0.0000
+    destroyed: 0.0000
+  ✓ Saved best model (mIoU: 0.2450)
+
+Epoch [2/30]
+  Train Loss: 0.0401 | Val Loss: 0.0383
+  Train mIoU: 0.2480 | Val mIoU: 0.2508
+  Train F1:   0.2521  | Val F1:   0.2565
+  Pixel Acc:  0.9799
+  Per class IoU:
+    no-damage: 0.9799
+    minor-damage: 0.0000
+    major-damage: 0.0006
+    destroyed: 0.0228
+  ✓ Saved best model (mIoU: 0.2508)
+
+Epoch [3/30]
+  Train Loss: 0.0353 | Val Loss: 0.0343
+  Train mIoU: 0.2579 | Val mIoU: 0.2591
+  Train F1:   0.2681  | Val F1:   0.2680
+  Pixel Acc:  0.9803
+  Per class IoU:
+    no-damage: 0.9803
+    minor-damage: 0.0000
+    major-damage: 0.0016
+    destroyed: 0.0547
+  ✓ Saved best model (mIoU: 0.2591)
+
+Epoch [4/30]
+  Train Loss: 0.0329 | Val Loss: 0.0323
+  Train mIoU: 0.2665 | Val mIoU: 0.2690
+  Train F1:   0.2814  | Val F1:   0.2839
+  Pixel Acc:  0.9799
+  Per class IoU:
+    no-damage: 0.9800
+    minor-damage: 0.0000
+    major-damage: 0.0312
+    destroyed: 0.0646
+  ✓ Saved best model (mIoU: 0.2690)
+
+Epoch [5/30]
+  Train Loss: 0.0317 | Val Loss: 0.0304
+  Train mIoU: 0.2732 | Val mIoU: 0.2672
+  Train F1:   0.2916  | Val F1:   0.2818
+  Pixel Acc:  0.9798
+  Per class IoU:
+    no-damage: 0.9805
+    minor-damage: 0.0000
+    major-damage: 0.0284
+    destroyed: 0.0597
+
+Epoch [6/30]
+  Train Loss: 0.0304 | Val Loss: 0.0309
+  Train mIoU: 0.2776 | Val mIoU: 0.2701
+  Train F1:   0.2978  | Val F1:   0.2843
+  Pixel Acc:  0.9808
+  Per class IoU:
+    no-damage: 0.9814
+    minor-damage: 0.0000
+    major-damage: 0.0317
+    destroyed: 0.0670
+  ✓ Saved best model (mIoU: 0.2701)
+
+Epoch [7/30]
+  Train Loss: 0.0290 | Val Loss: 0.0308
+  Train mIoU: 0.2846 | Val mIoU: 0.2647
+  Train F1:   0.3084  | Val F1:   0.2786
+  Pixel Acc:  0.9782
+  Per class IoU:
+    no-damage: 0.9787
+    minor-damage: 0.0004
+    major-damage: 0.0292
+    destroyed: 0.0506
+
+Epoch [8/30]
+  Train Loss: 0.0284 | Val Loss: 0.0286
+  Train mIoU: 0.2821 | Val mIoU: 0.2752
+  Train F1:   0.3048  | Val F1:   0.2921
+  Pixel Acc:  0.9810
+  Per class IoU:
+    no-damage: 0.9815
+    minor-damage: 0.0001
+    major-damage: 0.0531
+    destroyed: 0.0660
+  ✓ Saved best model (mIoU: 0.2752)
+
+Epoch [9/30]
+  Train Loss: 0.0273 | Val Loss: 0.0283
+  Train mIoU: 0.2883 | Val mIoU: 0.2716
+  Train F1:   0.3139  | Val F1:   0.2869
+  Pixel Acc:  0.9800
+  Per class IoU:
+    no-damage: 0.9806
+    minor-damage: 0.0039
+    major-damage: 0.0400
+    destroyed: 0.0618
+
+Epoch [10/30]
+  Train Loss: 0.0263 | Val Loss: 0.0329
+  Train mIoU: 0.2971 | Val mIoU: 0.2778
+  Train F1:   0.3260  | Val F1:   0.2968
+  Pixel Acc:  0.9779
+  Per class IoU:
+    no-damage: 0.9786
+    minor-damage: 0.0006
+    major-damage: 0.0600
+    destroyed: 0.0719
+
+  Confusion Matrix (rows=true, cols=predicted):
+        no-damage   minor-damage   major-damage      destroyed
+        no-damage       54509720            858         423984          50222
+     minor-damage         352388            868          74852            542
+     major-damage         196280            103         248918           1680
+        destroyed         128683              0          10668          99050
+  ✓ Saved best model (mIoU: 0.2778)
+
+Epoch [11/30]
+  Train Loss: 0.0260 | Val Loss: 0.0291
+  Train mIoU: 0.2996 | Val mIoU: 0.2860
+  Train F1:   0.3302  | Val F1:   0.3084
+  Pixel Acc:  0.9790
+  Per class IoU:
+    no-damage: 0.9798
+    minor-damage: 0.0032
+    major-damage: 0.0691
+    destroyed: 0.0920
+  ✓ Saved best model (mIoU: 0.2860)
+
+Epoch [12/30]
+  Train Loss: 0.0255 | Val Loss: 0.0344
+  Train mIoU: 0.3002 | Val mIoU: 0.2899
+  Train F1:   0.3308  | Val F1:   0.3176
+  Pixel Acc:  0.9740
+  Per class IoU:
+    no-damage: 0.9751
+    minor-damage: 0.0265
+    major-damage: 0.0585
+    destroyed: 0.0997
+  ✓ Saved best model (mIoU: 0.2899)
+
+Epoch [13/30]
+  Train Loss: 0.0265 | Val Loss: 0.0252
+  Train mIoU: 0.2941 | Val mIoU: 0.2851
+  Train F1:   0.3227  | Val F1:   0.3065
+  Pixel Acc:  0.9823
+  Per class IoU:
+    no-damage: 0.9827
+    minor-damage: 0.0082
+    major-damage: 0.0660
+    destroyed: 0.0837
+
+Epoch [14/30]
+  Train Loss: 0.0251 | Val Loss: 0.0304
+  Train mIoU: 0.3077 | Val mIoU: 0.2835
+  Train F1:   0.3426  | Val F1:   0.3058
+  Pixel Acc:  0.9788
+  Per class IoU:
+    no-damage: 0.9796
+    minor-damage: 0.0152
+    major-damage: 0.0586
+    destroyed: 0.0807
+
+Epoch [15/30]
+  Train Loss: 0.0236 | Val Loss: 0.0253
+  Train mIoU: 0.3155 | Val mIoU: 0.2836
+  Train F1:   0.3535  | Val F1:   0.3036
+  Pixel Acc:  0.9824
+  Per class IoU:
+    no-damage: 0.9832
+    minor-damage: 0.0010
+    major-damage: 0.0510
+    destroyed: 0.0991
+
+Epoch [16/30]
+  Train Loss: 0.0243 | Val Loss: 0.0249
+  Train mIoU: 0.3096 | Val mIoU: 0.2811
+  Train F1:   0.3446  | Val F1:   0.3002
+  Pixel Acc:  0.9826
+  Per class IoU:
+    no-damage: 0.9832
+    minor-damage: 0.0056
+    major-damage: 0.0644
+    destroyed: 0.0712
+
+Epoch [17/30]
+  Train Loss: 0.0232 | Val Loss: 0.0253
+  Train mIoU: 0.3162 | Val mIoU: 0.2892
+  Train F1:   0.3543  | Val F1:   0.3113
+  Pixel Acc:  0.9819
+  Per class IoU:
+    no-damage: 0.9827
+    minor-damage: 0.0014
+    major-damage: 0.0632
+    destroyed: 0.1096
+
+Epoch [18/30]
+  Train Loss: 0.0228 | Val Loss: 0.0290
+  Train mIoU: 0.3186 | Val mIoU: 0.2764
+  Train F1:   0.3582  | Val F1:   0.2938
+  Pixel Acc:  0.9817
+  Per class IoU:
+    no-damage: 0.9826
+    minor-damage: 0.0006
+    major-damage: 0.0626
+    destroyed: 0.0598
+
+Epoch [19/30]
+  Train Loss: 0.0240 | Val Loss: 0.0243
+  Train mIoU: 0.3123 | Val mIoU: 0.2926
+  Train F1:   0.3494  | Val F1:   0.3163
+  Pixel Acc:  0.9823
+  Per class IoU:
+    no-damage: 0.9830
+    minor-damage: 0.0146
+    major-damage: 0.0686
+    destroyed: 0.1042
+  ✓ Saved best model (mIoU: 0.2926)
+
+Epoch [20/30]
+  Train Loss: 0.0229 | Val Loss: 0.0247
+  Train mIoU: 0.3203 | Val mIoU: 0.2902
+  Train F1:   0.3616  | Val F1:   0.3133
+  Pixel Acc:  0.9810
+  Per class IoU:
+    no-damage: 0.9819
+    minor-damage: 0.0078
+    major-damage: 0.0655
+    destroyed: 0.1055
+
+  Confusion Matrix (rows=true, cols=predicted):
+        no-damage   minor-damage   major-damage      destroyed
+        no-damage       54649282           9941         264361          61200
+     minor-damage         351354          11031          66017            248
+     major-damage         188542           2032         253626           2781
+        destroyed         105194            134          15447         117626
+
+Epoch [21/30]
+  Train Loss: 0.0222 | Val Loss: 0.0247
+  Train mIoU: 0.3266 | Val mIoU: 0.2942
+  Train F1:   0.3696  | Val F1:   0.3177
+  Pixel Acc:  0.9824
+  Per class IoU:
+    no-damage: 0.9833
+    minor-damage: 0.0064
+    major-damage: 0.0808
+    destroyed: 0.1064
+  ✓ Saved best model (mIoU: 0.2942)
+
+Epoch [22/30]
+  Train Loss: 0.0217 | Val Loss: 0.0257
+  Train mIoU: 0.3294 | Val mIoU: 0.2763
+  Train F1:   0.3745  | Val F1:   0.2940
+  Pixel Acc:  0.9825
+  Per class IoU:
+    no-damage: 0.9828
+    minor-damage: 0.0118
+    major-damage: 0.0306
+    destroyed: 0.0799
+
+Epoch [23/30]
+  Train Loss: 0.0212 | Val Loss: 0.0229
+  Train mIoU: 0.3288 | Val mIoU: 0.2972
+  Train F1:   0.3737  | Val F1:   0.3248
+  Pixel Acc:  0.9832
+  Per class IoU:
+    no-damage: 0.9839
+    minor-damage: 0.0183
+    major-damage: 0.0832
+    destroyed: 0.1034
+  ✓ Saved best model (mIoU: 0.2972)
+
+Epoch [24/30]
+  Train Loss: 0.0212 | Val Loss: 0.0227
+  Train mIoU: 0.3375 | Val mIoU: 0.2954
+  Train F1:   0.3856  | Val F1:   0.3202
+  Pixel Acc:  0.9831
+  Per class IoU:
+    no-damage: 0.9838
+    minor-damage: 0.0183
+    major-damage: 0.0748
+    destroyed: 0.1047
+
+Epoch [25/30]
+  Train Loss: 0.0203 | Val Loss: 0.0231
+  Train mIoU: 0.3380 | Val mIoU: 0.3003
+  Train F1:   0.3862  | Val F1:   0.3274
+  Pixel Acc:  0.9826
+  Per class IoU:
+    no-damage: 0.9835
+    minor-damage: 0.0086
+    major-damage: 0.0979
+    destroyed: 0.1112
+  ✓ Saved best model (mIoU: 0.3003)
+
+Epoch [26/30]
+  Train Loss: 0.0205 | Val Loss: 0.0228
+  Train mIoU: 0.3405 | Val mIoU: 0.2990
+  Train F1:   0.3895  | Val F1:   0.3258
+  Pixel Acc:  0.9828
+  Per class IoU:
+    no-damage: 0.9836
+    minor-damage: 0.0304
+    major-damage: 0.0705
+    destroyed: 0.1115
+
+Epoch [27/30]
+  Train Loss: 0.0203 | Val Loss: 0.0229
+  Train mIoU: 0.3377 | Val mIoU: 0.2986
+  Train F1:   0.3860  | Val F1:   0.3261
+  Pixel Acc:  0.9828
+  Per class IoU:
+    no-damage: 0.9838
+    minor-damage: 0.0163
+    major-damage: 0.0894
+    destroyed: 0.1048
+
+Epoch [28/30]
+  Train Loss: 0.0199 | Val Loss: 0.0225
+  Train mIoU: 0.3465 | Val mIoU: 0.2935
+  Train F1:   0.3989  | Val F1:   0.3181
+  Pixel Acc:  0.9831
+  Per class IoU:
+    no-damage: 0.9839
+    minor-damage: 0.0166
+    major-damage: 0.0794
+    destroyed: 0.0940
+
+Epoch [29/30]
+  Train Loss: 0.0199 | Val Loss: 0.0225
+  Train mIoU: 0.3437 | Val mIoU: 0.2972
+  Train F1:   0.3946  | Val F1:   0.3238
+  Pixel Acc:  0.9825
+  Per class IoU:
+    no-damage: 0.9833
+    minor-damage: 0.0239
+    major-damage: 0.0779
+    destroyed: 0.1036
+
+Epoch [30/30]
+  Train Loss: 0.0190 | Val Loss: 0.0245
+  Train mIoU: 0.3503 | Val mIoU: 0.2964
+  Train F1:   0.4040  | Val F1:   0.3219
+  Pixel Acc:  0.9829
+  Per class IoU:
+    no-damage: 0.9839
+    minor-damage: 0.0081
+    major-damage: 0.0805
+    destroyed: 0.1130
+
+  Confusion Matrix (rows=true, cols=predicted):
+        no-damage   minor-damage   major-damage      destroyed
+        no-damage       54799099          18517         124902          42266
+     minor-damage         350102          17517          60408            623
+     major-damage         224237           1878         217946           2920
+        destroyed         121082             43          10301         106975
+
+Training complete! Best mIoU: 0.3003
+Models saved to /home/vteam2/ayesha_xbd/checkpoints/siamese_deeplab_base
