@@ -1,6 +1,6 @@
 # Automated Post-Disaster Building Damage Assessment
 
-This repository contains state-of-the-art semantic segmentation models tailored for post-disaster structural damage assessment applied to satellite imagery. 
+This repository contains semantic segmentation models tailored for post-disaster structural damage assessment applied to satellite imagery. 
 Each model is optimized to segment building damage into multiple classes, including no-damage, minor-damage, major-damage, and destroyed, addressing challenges like extreme class imbalance and spatial resolution loss. 
 The different standalone baselines are explored to compare their individual performance against a unified weighted ensemble approach, evaluating how they perform in time-sensitive emergency response scenarios.
 
