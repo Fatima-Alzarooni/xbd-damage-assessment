@@ -1,14 +1,13 @@
 # Automated Post-Disaster Building Damage Assessment
 
 This repository contains semantic segmentation models tailored for post-disaster structural damage assessment applied to satellite imagery. 
-Each model is optimized to segment building damage into multiple classes, including no-damage, minor-damage, major-damage, and destroyed, addressing challenges like extreme class imbalance and spatial resolution loss. 
-The different standalone baselines are explored to compare their individual performance against a unified weighted ensemble approach, evaluating how they perform in time-sensitive emergency response scenarios.
+Each model performs multi-class segmentation of building damage, including no damage, minor damage, major damage, and destroyed, while handling challenges such as severe class imbalance and reduced spatial resolution.
+The different standalone baselines are explored to compare their individual performance against a unified soft voting ensemble approach, evaluating how they perform in time-sensitive emergency response scenarios.
 
 ## All the models have Common Features such as:
 
 * **Input:** Pre- and post-disaster satellite image pairs from the xBD dataset.
 * **Output:** Multi-class semantic segmentation heatmap (4 damage levels).
-* **Imbalance Handling:** Handled via architectural strengths, specialized loss functions, and a multi-model fusion mechanism.
 * **Evaluation:** Monitored using Pixel Accuracy, Mean Intersection over Union (mIoU), F1-Score, and comprehensive confusion matrices.
 
 ## All of the codes are structured in the following Way:
