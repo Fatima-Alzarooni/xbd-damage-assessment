@@ -24,28 +24,9 @@ The different standalone baselines are explored to compare their individual perf
 ## The different models we used are:
 
 ### Siamese U-Net:
-The **Siamese U-Net** is a specialized Encoder-Decoder architecture designed to process both pre-disaster and post-disaster images simultaneously to extract temporal structural changes. 
-It leverages a dual-stream contracting path (encoder) to extract features, followed by an expanding path (decoder) that progressively upsamples these features. 
-A critical component is the use of skip connections, which fuse high-resolution spatial features from the encoder with the upsampled decoder features. 
-This allows the model to localize objects, preserve fine-grained spatial details, and recover sharper, distinct building boundaries that are crucial for distinguishing individual structures in dense residential areas.
-
 ### SegFormer:
-The **SegFormer** architecture adapts transformer-based deep learning for semantic segmentation. 
-By discarding traditional positional encodings and utilizing a hierarchically structured transformer encoder paired with a lightweight Multi-Layer Perceptron (MLP) decoder, it efficiently aggregates multi-scale features. 
-This mechanism allows the model to capture wide, global context across the disaster zones, making it robust to complex terrain changes and overarching disaster patterns across the satellite imagery.
-
 ### Siamese DeepLabV3+:
-The **Siamese DeepLabV3+** is a semantic segmentation architecture tailored for macro-level contextual awareness. 
-It enhances standard segmentation by integrating an ASPP (Atrous Spatial Pyramid Pooling) module, which uses dilated convolutions to gather multi-scale context. 
-This allows the model to localize wide-scale zones of catastrophic damage without hallucinating buildings in empty terrain. 
-While it occasionally sacrifices fine spatial resolution (resulting in overlapping building footprints), it is a powerful feature extractor for identifying severe structural damage.
-
 ### Soft Voting Ensemble:
-The **Soft Voting Ensemble** pipeline is the culmination of the project, combining the three trained models (Siamese U-Net, Siamese DeepLabV3+, and SegFormer). 
-Implemented via `damage_ensemble.py`, this approach operates at inference time. 
-Each model produces a set of class logits for a given pre/post image pair, which are converted to probability distributions via a softmax function. 
-These three probability maps are then averaged element-wise, and the final damage class for each pixel is determined by taking the argmax of the averaged probabilities. 
-By aggregating predictions at the probability level rather than the decision level, this soft voting method is significantly more robust to individual model uncertainty than hard majority voting, particularly for ambiguous intermediate damage classes.
 
 ## How to Run the Code (Step-by-Step)
 
